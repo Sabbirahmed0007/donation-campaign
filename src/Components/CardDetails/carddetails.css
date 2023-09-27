@@ -1,0 +1,5 @@
+.overlay{
+    background-color: transparent;
+    background-image: linear-gradient(rgba(17, 16, 16, 0.6), rgba(16, 15, 15, 0.6));
+    background-blend-mode: overlay;
+}

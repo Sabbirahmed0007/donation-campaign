@@ -23,7 +23,7 @@ const Card = ({card}) => {
                 </div>
                 <div className='p-5'>
                     <button  className='p-2 rounded-lg text-lg font-bold my-3' style={categoryStyle}> {category}</button>
-                    <h2 className='font-medium'>{title}</h2>
+                    <h2 className='font-medium h-10'>{title}</h2>
                 </div>
             </div>
         </Link>

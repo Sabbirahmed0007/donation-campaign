@@ -1,13 +1,14 @@
 [
-  { "id": 1,
+  {
+    "id": 1,
     "picture": "https://i.ibb.co/z5zScqn/Health.png",
     "title": "Clean Water for Healthy Lives",
     "category": "Health",
     "category_bg": "#0052FF33",
     "card_bg": "#0052FF26",
     "text_bg": "#0052FF",
-    "description": "Ensure access to clean water for children and families. Track your daily fitness goals with this advanced fitness tracker.",
-    "price": 49.99
+    "description": "Ensure access to clean water for children and families. Track your daily fitness goals with this advanced fitness tracker. Improve your overall well-being with our Health products.",
+    "price": 49
   },
   {
     "id": 2,
@@ -17,8 +18,8 @@
     "category_bg": "#FF444A33",
     "card_bg": "#FF444A26",
     "text_bg": "#FF444A",
-    "description": "Enroll in our online courses and enhance your skills from anywhere. Invest in a brighter future.",
-    "price": 29.99
+    "description": "Enroll in our online courses and enhance your skills from anywhere. Invest in a brighter future. Achieve your educational goals with our Education programs.",
+    "price": 29
   },
   {
     "id": 3,
@@ -28,8 +29,8 @@
     "category_bg": "#79C23F33",
     "card_bg": "#79C23F26",
     "text_bg": "#79C23F",
-    "description": "Stay warm and stylish with our classic men's jacket. Contribute to our used Clothing drive.",
-    "price": 79.99
+    "description": "Stay warm and stylish with our classic men's jacket. Contribute to our used Clothing drive. Make a fashion statement with our Clothing collection.",
+    "price": 79
   },
   {
     "id": 4,
@@ -39,8 +40,8 @@
     "category_bg": "#F8714726",
     "card_bg": "#F8714733",
     "text_bg": "#F87147",
-    "description": "Enjoy fresh and healthy organic vegetables for your daily meals. Quality Food for everyone.",
-    "price": 5.99
+    "description": "Enjoy fresh and healthy organic vegetables for your daily meals. Quality Food for everyone. Support local farmers with our Food products.",
+    "price": 5
   },
   {
     "id": 5,
@@ -50,8 +51,8 @@
     "category_bg": "#F8714726",
     "card_bg": "#F8714733",
     "text_bg": "#F87147",
-    "description": "Provide access to nutritious meals for families in need. Fresh and healthy organic vegetables for all.",
-    "price": 5.99
+    "description": "Provide access to nutritious meals for families in need. Fresh and healthy organic vegetables for all. Help combat hunger with our Food offerings.",
+    "price": 5
   },
   {
     "id": 6,
@@ -61,8 +62,8 @@
     "category_bg": "#79C23F33",
     "card_bg": "#79C23F26",
     "text_bg": "#79C23F",
-    "description": "Support a good cause by donating Clothing. Stay warm and stylish with our classic men's jacket.",
-    "price": 79.99
+    "description": "Support a good cause by donating Clothing. Stay warm and stylish with our classic men's jacket. Make a positive impact with our Clothing donations.",
+    "price": 79
   },
   {
     "id": 7,
@@ -72,8 +73,8 @@
     "category_bg": "#FF444A33",
     "card_bg": "#FF444A26",
     "text_bg": "#FF444A",
-    "description": "Access empowering online courses and enhance your skills from anywhere. Unlock your potential.",
-    "price": 29.99
+    "description": "Access empowering online courses and enhance your skills from anywhere. Unlock your potential. Achieve greatness through our Education programs.",
+    "price": 29
   },
   {
     "id": 8,
@@ -83,8 +84,8 @@
     "category_bg": "#0052FF33",
     "card_bg": "#0052FF26",
     "text_bg": "#0052FF",
-    "description": "Invest in clean water for children and secure a healthy future. Track your fitness goals with this advanced fitness tracker.",
-    "price": 49.99
+    "description": "Invest in clean water for children and secure a healthy future. Track your fitness goals with this advanced fitness tracker. Prioritize your health with our Health solutions.",
+    "price": 49
   },
   {
     "id": 9,
@@ -94,8 +95,8 @@
     "category_bg": "#0052FF33",
     "card_bg": "#0052FF26",
     "text_bg": "#0052FF",
-    "description": "Provide access to clean water for children and families. Track your daily fitness goals with this advanced fitness tracker.",
-    "price": 49.99
+    "description": "Provide access to clean water for children and families. Track your daily fitness goals with this advanced fitness tracker. Support a healthy lifestyle with our Health products.",
+    "price": 49
   },
   {
     "id": 10,
@@ -105,8 +106,8 @@
     "category_bg": "#FF444A33",
     "card_bg": "#FF444A26",
     "text_bg": "#FF444A",
-    "description": "Enroll in our online courses and enhance your skills from anywhere. Invest in a brighter future.",
-    "price": 29.99
+    "description": "Enroll in our online courses and enhance your skills from anywhere. Invest in a brighter future. Achieve academic success with our Education programs.",
+    "price": 29
   },
   {
     "id": 11,
@@ -116,8 +117,8 @@
     "category_bg": "#79C23F33",
     "card_bg": "#79C23F26",
     "text_bg": "#79C23F",
-    "description": "Stay warm and stylish with our classic men's jacket. Contribute to our used Clothing drive.",
-    "price": 79.99
+    "description": "Stay warm and stylish with our classic men's jacket. Contribute to our used Clothing drive. Explore fashionable Clothing options with us.",
+    "price": 79
   },
   {
     "id": 12,
@@ -127,7 +128,7 @@
     "category_bg": "#F8714726",
     "card_bg": "#F8714733",
     "text_bg": "#F87147",
-    "description": "Enjoy fresh and healthy organic vegetables for your daily meals. Quality Food for everyone.",
-    "price": 5.99
+    "description": "Enjoy fresh and healthy organic vegetables for your daily meals. Quality Food for everyone. Support sustainable farming with our Food choices.",
+    "price": 5
   }
 ]

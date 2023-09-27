@@ -29,7 +29,11 @@ const CreatedRoutes= createBrowserRouter([
                 path:'/statistics',
                 element:<Statistic></Statistic>
             },
-            
+            {
+                path:'/card/:id',
+                loader:()=>fetch(`/donation.json`),
+                element:<CardDetails></CardDetails>
+            }
         ]
     }
 ])
