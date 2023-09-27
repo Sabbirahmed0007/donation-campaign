@@ -1,0 +1,8 @@
+.banner-container{
+    background-image: url('https://i.ibb.co/tPz3tK9/Rectangle-4281.png'),
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(254, 252, 252, 0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}

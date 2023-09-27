@@ -1,0 +1,133 @@
+[
+  { "id": 1,
+    "picture": "https://i.ibb.co/z5zScqn/Health.png",
+    "title": "Clean Water for Healthy Lives",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_bg": "#0052FF",
+    "description": "Ensure access to clean water for children and families. Track your daily fitness goals with this advanced fitness tracker.",
+    "price": 49.99
+  },
+  {
+    "id": 2,
+    "picture": "https://i.ibb.co/Bq7hHnR/Education.png",
+    "title": "Quality Education Online",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_bg": "#FF444A",
+    "description": "Enroll in our online courses and enhance your skills from anywhere. Invest in a brighter future.",
+    "price": 29.99
+  },
+  {
+    "id": 3,
+    "picture": "https://i.ibb.co/h9401t9/Clothing.png",
+    "title": "Warmth and Style with Used Clothing",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_bg": "#79C23F",
+    "description": "Stay warm and stylish with our classic men's jacket. Contribute to our used Clothing drive.",
+    "price": 79.99
+  },
+  {
+    "id": 4,
+    "picture": "https://i.ibb.co/k8JYYZD/Food.png",
+    "title": "Affordable, Fresh Organic Vegetables",
+    "category": "Food",
+    "category_bg": "#F8714726",
+    "card_bg": "#F8714733",
+    "text_bg": "#F87147",
+    "description": "Enjoy fresh and healthy organic vegetables for your daily meals. Quality Food for everyone.",
+    "price": 5.99
+  },
+  {
+    "id": 5,
+    "picture": "https://i.ibb.co/k8JYYZD/Food.png",
+    "title": "Nutritious Meals for All",
+    "category": "Food",
+    "category_bg": "#F8714726",
+    "card_bg": "#F8714733",
+    "text_bg": "#F87147",
+    "description": "Provide access to nutritious meals for families in need. Fresh and healthy organic vegetables for all.",
+    "price": 5.99
+  },
+  {
+    "id": 6,
+    "picture": "https://i.ibb.co/h9401t9/Clothing.png",
+    "title": "Donate Clothing for a Cause",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_bg": "#79C23F",
+    "description": "Support a good cause by donating Clothing. Stay warm and stylish with our classic men's jacket.",
+    "price": 79.99
+  },
+  {
+    "id": 7,
+    "picture": "https://i.ibb.co/Bq7hHnR/Education.png",
+    "title": "Empowering Education Online",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_bg": "#FF444A",
+    "description": "Access empowering online courses and enhance your skills from anywhere. Unlock your potential.",
+    "price": 29.99
+  },
+  {
+    "id": 8,
+    "picture": "https://i.ibb.co/z5zScqn/Health.png",
+    "title": "Clean Water for a Healthy Future",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_bg": "#0052FF",
+    "description": "Invest in clean water for children and secure a healthy future. Track your fitness goals with this advanced fitness tracker.",
+    "price": 49.99
+  },
+  {
+    "id": 9,
+    "picture": "https://i.ibb.co/z5zScqn/Health.png",
+    "title": "Clean Water for Healthy Lives",
+    "category": "Health",
+    "category_bg": "#0052FF33",
+    "card_bg": "#0052FF26",
+    "text_bg": "#0052FF",
+    "description": "Provide access to clean water for children and families. Track your daily fitness goals with this advanced fitness tracker.",
+    "price": 49.99
+  },
+  {
+    "id": 10,
+    "picture": "https://i.ibb.co/Bq7hHnR/Education.png",
+    "title": "Quality Education Online",
+    "category": "Education",
+    "category_bg": "#FF444A33",
+    "card_bg": "#FF444A26",
+    "text_bg": "#FF444A",
+    "description": "Enroll in our online courses and enhance your skills from anywhere. Invest in a brighter future.",
+    "price": 29.99
+  },
+  {
+    "id": 11,
+    "picture": "https://i.ibb.co/h9401t9/Clothing.png",
+    "title": "Warmth and Style with Used Clothing",
+    "category": "Clothing",
+    "category_bg": "#79C23F33",
+    "card_bg": "#79C23F26",
+    "text_bg": "#79C23F",
+    "description": "Stay warm and stylish with our classic men's jacket. Contribute to our used Clothing drive.",
+    "price": 79.99
+  },
+  {
+    "id": 12,
+    "picture": "https://i.ibb.co/k8JYYZD/Food.png",
+    "title": "Affordable, Fresh Organic Vegetables",
+    "category": "Food",
+    "category_bg": "#F8714726",
+    "card_bg": "#F8714733",
+    "text_bg": "#F87147",
+    "description": "Enjoy fresh and healthy organic vegetables for your daily meals. Quality Food for everyone.",
+    "price": 5.99
+  }
+]
