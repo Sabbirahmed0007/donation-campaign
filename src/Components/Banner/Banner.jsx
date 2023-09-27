@@ -1,7 +1,8 @@
 import React from 'react';
 import './banner.css';
 
-const Banner = () => {
+const Banner = ({handle}) => {
+
     return (
         <div className='banner-container pt-40 '>
             <div className='text-center h-96 lg:h-[500px]  space-x-7'>
@@ -10,7 +11,7 @@ const Banner = () => {
                     <div className='bg-slate-200 inline-block rounded-lg '>
 
                         <input className='bg-slate-200 p-2 rounded-lg outline-none w-60' type="text" name="" id="" placeholder='Search Here...' />
-                        <button className=' ml-2 px-3 p-2 rounded-r-lg bg-[#FF444A] font-semibold text-white' type='button'>Search</button>
+                        <button onClick={handle} className=' ml-2 px-3 p-2 rounded-r-lg bg-[#FF444A] font-semibold text-white' type='button'>Search</button>
                     </div>
                 </div>
 

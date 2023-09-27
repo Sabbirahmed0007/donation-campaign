@@ -1,8 +1,18 @@
-# React + Vite
+# Donation Campagin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Project Features
 
-Currently, two official plugins are available:
+- Donation Campagin  is  Dynamic React project . 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- This project has main 3 pages as "Home", "Donation", "Statistic", which are placed in the nav bar
+
+-The Home page contains a banner with search bar  and 12 Cards of 4 categories. The categories are 'Education', 'health', 'Food', 'Clothing' . and the cards are clickable. 
+
+- If you click on the cards They will take you to another page where the they are described in details and there is button of money. If you  wanna donate then click the button .
+
+-When you will click on the button you will get notified that you donated successfully. You can donate/add the card once . And the card will be stored into the Donation page.
+
+- In the Donation page when there are more than four data card there will apear a button is called 'SEE ALL' . and you will click on the button rest of card will be displayed . and the button will be converted in 'SEE LESS'if you want to shrink the page  just click on the button and they will be hid except four cards.
+
+- If there is no data available you will have an error page 
+

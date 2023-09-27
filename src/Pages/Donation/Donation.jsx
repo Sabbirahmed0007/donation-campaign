@@ -56,7 +56,7 @@ const Donation = () => {
                     </div>
                     <div className='text-center'>
                         {
-                            dataDonation.length >=4 ? <button onClick={()=>setisShow(!isshow)} className='my-5 bg-[#009444] text-lg px-3 py-2 text-white font-semibold rounded-lg'>{isshow? "SEE LESS": "SEE ALL"}</button> : <button onClick={()=>setisShow(!isshow)} className='my-5 bg-[#009444] text-lg px-3 py-2 text-white font-semibold rounded-lg hidden'>{isshow? "SEE LESS": "SEE ALL"}</button>
+                            dataDonation.length >4 ? <button onClick={()=>setisShow(!isshow)} className='my-5 bg-[#009444] text-lg px-3 py-2 text-white font-semibold rounded-lg'>{isshow? "SEE LESS": "SEE ALL"}</button> : <button onClick={()=>setisShow(!isshow)} className='my-5 bg-[#009444] text-lg px-3 py-2 text-white font-semibold rounded-lg hidden'>{isshow? "SEE LESS": "SEE ALL"}</button>
                         }
                         {/* <button onClick={()=>setisShow(!isshow)} className='my-5 bg-[#009444] text-lg px-3 py-2 text-white font-semibold rounded-lg'>{isshow? "SEE LESS": "SEE ALL"}</button> */}
                     </div>
