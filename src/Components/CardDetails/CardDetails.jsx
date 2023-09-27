@@ -14,6 +14,11 @@ const CardDetails = () => {
     const singlecardDetails= cards.find(card=> card.id === intId);
     console.log(singlecardDetails)
     const {card_bg, category, category_bg, description, picture, price, text_bg, title}=singlecardDetails || '';
+    const categoryStyle={
+        backgroundColor: category_bg,
+        color:text_bg
+        
+    }
     
     const goBack=useNavigate()
     const handleBackbtn=()=>{
@@ -21,7 +26,7 @@ const CardDetails = () => {
     }
 
     const handleDonate=()=>{
-        if(saveDonatedData(id)){
+        if(saveDonatedData(intId)){
             swal("Good job!", "You donated successfully", "success");
         } else {
             swal("Warning", "You have already donated for this item.", "warning");
@@ -46,6 +51,7 @@ const CardDetails = () => {
                     </div>
                 </div>
                     <div className='my-8'>
+                        <button className='p-2 rounded-lg font-bold'style={categoryStyle}>{category}</button>
                         <h2 className='text-xl font-bold my-4'>{title}</h2>
                         <p>{description}</p>
                     </div>

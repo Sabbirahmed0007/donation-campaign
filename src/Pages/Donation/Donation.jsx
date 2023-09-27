@@ -1,9 +1,59 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { useLoaderData } from 'react-router-dom';
+import { getDonatedData } from '../../Utility/localStorage';
+import DonationDetails from '../../Components/DonationDetails/DonationDetails';
 
 const Donation = () => {
+
+    const donatedData=useLoaderData();
+    const [NotFound, setNotFound]= useState('');
+
+    const [dataDonation, setDataDonation]=useState([]);
+
+    useEffect(()=>{
+        const storedDonation= getDonatedData();
+
+        if(donatedData.length>0){
+            const donated= donatedData.filter(data=>storedDonation.includes(data.id))
+            // console.log(donatedData, storedDonation,donated);
+            setDataDonation(donated)
+
+            if(donatedData.length===0){
+                setNotFound('No Data Found');
+            }
+
+
+        }
+
+
+        
+
+    },[donatedData])
+
+    // console.log(dataDonation);
+    const handleRemove=()=>{
+        localStorage.clear()
+        setDataDonation([]);
+        setNotFound('No Data Found')
+    }
+
     return (
         <div>
-            <h1>Donation page</h1>
+            {
+                NotFound? <div className='text-xl font-bold text-center mt-40'><p>{NotFound}</p></div>: <div>
+                    <div className='text-center my-8'>
+                        {
+                            dataDonation.length>0 && <button onClick={handleRemove} className='bg-orange-600 text-white font-bold p-2 rounded-lg'>Clear All</button>
+                        }
+                        
+                    </div>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-3'>
+                        {
+                            dataDonation.slice(0, ).map(data=><DonationDetails donation={data} key={data.id}></DonationDetails>)
+                        }
+                    </div>
+                </div>
+            }
         </div>
     );
 };
