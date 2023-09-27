@@ -51,7 +51,7 @@ const CardDetails = () => {
                     </div>
                 </div>
                     <div className='my-8'>
-                        <button className='p-2 rounded-lg font-bold'style={categoryStyle}>{category}</button>
+                        <button className=' px-3 py-2 font-bold rounded-lg'style={categoryStyle}>{category}</button>
                         <h2 className='text-xl font-bold my-4'>{title}</h2>
                         <p>{description}</p>
                     </div>

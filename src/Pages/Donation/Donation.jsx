@@ -9,6 +9,7 @@ const Donation = () => {
     const [NotFound, setNotFound]= useState('');
 
     const [dataDonation, setDataDonation]=useState([]);
+    const [isshow, setisShow]=useState(false)
 
     useEffect(()=>{
         const storedDonation= getDonatedData();
@@ -47,10 +48,17 @@ const Donation = () => {
                         }
                         
                     </div>
-                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-3'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-4 my-10'>
                         {
-                            dataDonation.slice(0, ).map(data=><DonationDetails donation={data} key={data.id}></DonationDetails>)
+                            isshow? dataDonation.map(data=><DonationDetails donation={data} key={data.id}></DonationDetails>)
+                            : dataDonation.slice(0, 4).map(data=><DonationDetails donation={data} key={data.id}></DonationDetails>)
                         }
+                    </div>
+                    <div className='text-center'>
+                        {
+                            dataDonation.length >=4 ? <button onClick={()=>setisShow(!isshow)} className='my-5 bg-[#009444] text-lg px-3 py-2 text-white font-semibold rounded-lg'>{isshow? "SEE LESS": "SEE ALL"}</button> : <button onClick={()=>setisShow(!isshow)} className='my-5 bg-[#009444] text-lg px-3 py-2 text-white font-semibold rounded-lg hidden'>{isshow? "SEE LESS": "SEE ALL"}</button>
+                        }
+                        {/* <button onClick={()=>setisShow(!isshow)} className='my-5 bg-[#009444] text-lg px-3 py-2 text-white font-semibold rounded-lg'>{isshow? "SEE LESS": "SEE ALL"}</button> */}
                     </div>
                 </div>
             }

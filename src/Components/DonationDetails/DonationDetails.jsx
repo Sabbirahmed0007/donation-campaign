@@ -20,13 +20,13 @@ const DonationDetails = ({donation}) => {
 
     return (
         <div className='mx-5 '>
-            <div className='flex flex-col lg:flex-row gap-3 rounded-lg   justify-center' style={cardStyle}>
-                <div>
-                    <img src={picture} alt="" className='w-full lg:w-80 h-72 rounded-lg'/>
+            <div className='flex flex-col lg:flex-row gap-3 rounded-lg lg:mt-4  justify-center' style={cardStyle}>
+                <div className='flex-1'>
+                    <img src={picture} alt="" className='w-full h-full  rounded-lg'/>
                 </div>
-                <div className='p-4 lg:mt-5'>
+                <div className='p-4 lg:mt-5 flex-1'>
                     <button className='p-2 rounded-lg font-bold' style={categoryStyle}>{category}</button>
-                    <h2 className='text-lg font-bold my-4'>{title}</h2>
+                    <h2 className='text-lg font-bold my-4 lg:h-14'>{title}</h2>
                     <p className='font-semibold'>$ {price}</p>
                     
                     <Link to={`/card/${id}`}>

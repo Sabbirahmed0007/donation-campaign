@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className='max-w-screen-2xl mx-auto '>
             {/* <h1>navbar</h1> */}
-            <div className='flex items-center justify-between  p-4 shadow-xl'>
+            <div className='flex items-center justify-between  p-5 shadow-xl'>
                 <div className='w-32'>
                     <Logo></Logo>
                 </div>
