@@ -25,6 +25,7 @@ const CardDetails = () => {
         goBack(-1);
     }
 
+
     const handleDonate=()=>{
         if(saveDonatedData(intId)){
             swal("Good job!", "You donated successfully", "success");
@@ -58,6 +59,11 @@ const CardDetails = () => {
                     <div onClick={handleBackbtn}>
                         <Link to={`/card/${id}`}>
                             <button  className='btn text-lg'>⬅ Previous </button>
+                        </Link>
+                    </div>
+                    <div className='mt-3'>
+                        <Link to={`/donation`}>
+                            <button  className='btn text-lg'> Go To Donation Page </button>
                         </Link>
                     </div>
             </div>

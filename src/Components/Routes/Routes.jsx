@@ -18,24 +18,25 @@ const CreatedRoutes= createBrowserRouter([
         children:[
             {
                 path:'/',
-                loader: ()=>fetch(`/donation.json`),
+                loader: ()=>fetch(`/donationdata.json`),
                 element: <Home></Home>
             },
             {
                 path:'/donation',
-                loader:()=>fetch(`/donation.json`),
+                loader:()=>fetch(`/donationdata.json`),
                 element:<Donation></Donation>
 
             },
             {
                 path:'/statistics',
-                loader:()=>fetch(`/donation.json`),
+                loader:()=>fetch(`/donationdata.json`),
                 element:<Statistic></Statistic>
             },
             {
                 path:'/card/:id',
-                loader:()=>fetch(`/donation.json`),
-                element:<CardDetails></CardDetails>
+                loader:()=>fetch(`/donationdata.json`),
+                // element:<CardDetails></CardDetails>
+                element: <CardDetails></CardDetails>
             }
         ]
     }

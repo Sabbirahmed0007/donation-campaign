@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useNavigate } from 'react-router-dom';
 import { getDonatedData } from '../../Utility/localStorage';
 import DonationDetails from '../../Components/DonationDetails/DonationDetails';
 
@@ -38,6 +38,11 @@ const Donation = () => {
         setNotFound('No Data Found')
     }
 
+    const back = useNavigate()
+    const handleGoBackBtn=()=>{
+        back(-1);
+    }
+
     return (
         <div>
             {
@@ -47,6 +52,9 @@ const Donation = () => {
                             dataDonation.length>0 && <button onClick={handleRemove} className='bg-orange-600 text-white font-bold p-2 rounded-lg'>Clear All</button>
                         }
                         
+                    </div>
+                    <div onClick={handleGoBackBtn}>
+                        <button className='bg-slate-600 ml-5 btn active:bg-amber-400 hover:bg-green-400 text-white font-bold p-2 rounded-lg'>⬅ Back</button>
                     </div>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-4 my-10'>
                         {
@@ -60,6 +68,7 @@ const Donation = () => {
                         }
                         {/* <button onClick={()=>setisShow(!isshow)} className='my-5 bg-[#009444] text-lg px-3 py-2 text-white font-semibold rounded-lg'>{isshow? "SEE LESS": "SEE ALL"}</button> */}
                     </div>
+
                 </div>
             }
         </div>

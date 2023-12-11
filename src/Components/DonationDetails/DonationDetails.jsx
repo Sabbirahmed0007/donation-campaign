@@ -13,6 +13,7 @@ const DonationDetails = ({donation}) => {
         backgroundColor: card_bg,
         color:text_bg
     }
+    
     const btnStyle={
         backgroundColor:btn_bg,
         color: 'white'
